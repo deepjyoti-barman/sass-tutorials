@@ -1,0 +1,17 @@
+{
+  "name": "sass-basics",
+  "version": "1.0.0",
+  "description": "A mini project to demonstrate various features of SASS",
+  "main": "index.js",
+  "scripts": {
+    "sass:compile": "node-sass sass/main.scss -o css --output-style compact --indent-type space --indent-width 4 --linefeed lf --watch"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "scss",
+    "sass"
+  ],
+  "author": "Deepjyoti Barman",
+  "license": "ISC"
+}
